@@ -1,0 +1,19 @@
+1) Create your node in blender
+2) Save into the Meshes folder of your project
+3) Create a new game object in the hierarchy
+4) Rename to "NODENAMEnode"
+5) Add a Harvestable Respawn Controller script to the object
+6) Set the respawn time to the appropriate interval (in seconds)
+
+Now, we need to create the actual node to be harvested
+1) Drag the previously created node from the meshes folder into the hierarchy
+2) Add a collider to the part of the mesh you wish to be interactable
+3) Add a Harvestable Object Controller script to the object
+4) Fill in the appropriate field
+5) Drag this object from the hierarchy to the Assets -> Resources -> _Resources folder
+6) Delete this object from the hierarchy
+
+Now, back to the Node:
+7) Drag the prefab of your resource into the Prefab field in the inspector
+8) Drag the game object into the Assets -> Resources -> _ResourceNodes folder
+9) Delete this object from the hierarchy

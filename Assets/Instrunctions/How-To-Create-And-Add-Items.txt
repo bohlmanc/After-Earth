@@ -1,0 +1,11 @@
+1) Create your mesh in blender
+2) Save the mesh into the assets folder in the project hierarchy
+3) Drag the icon into the scene
+4) Double click on the object
+5) Add rigidbody component
+6) Add appropriate collider
+7) Add new Script "Item Controller" - set fields as appropriate
+8) Change the tag as appropriate (Object, Harvestable, GunP,GunS, etc)
+9) Resize if necessary
+10) Drag object from hierarchy into the resources folder, into the items folder
+11) Delete the object from the hierarchy
